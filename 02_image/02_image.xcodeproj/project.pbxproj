@@ -27,6 +27,7 @@
 		DCBFE08C1E0DE6C300BB00C7 /* 02_image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 02_image; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBFE08F1E0DE6C300BB00C7 /* 02_image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 02_image.c; sourceTree = "<group>"; };
 		DCBFE0971E0DE70000BB00C7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		DCBFE0991E0DE7E400BB00C7 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = hello_world.bmp; path = 02_image/hello_world.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		DCBFE0831E0DE6C300BB00C7 = {
 			isa = PBXGroup;
 			children = (
+				DCBFE0991E0DE7E400BB00C7 /* hello_world.bmp */,
 				DCBFE08E1E0DE6C300BB00C7 /* 02_image */,
 				DCBFE08D1E0DE6C300BB00C7 /* Products */,
 				DCBFE0961E0DE70000BB00C7 /* Frameworks */,
