@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SDL_tutorial.xcscheme</key>
+		<key>01_hello_sdl.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DCBFE05C1E0DDA1300BB00C7</key>
+		<key>DCBFE0781E0DE6AA00BB00C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

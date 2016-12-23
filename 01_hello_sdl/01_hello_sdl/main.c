@@ -1,6 +1,6 @@
 //
 //  main.c
-//  SDL_tutorial
+//  01_hello_sdl
 //
 //  Created by Nicolas Montanaro on 12/23/16.
 //  Copyright © 2016 Nicolas Montanaro. All rights reserved.
