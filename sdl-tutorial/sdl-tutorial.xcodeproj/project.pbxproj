@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCBFE0C61E0DE8CF00BB00C7 /* 02_image.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */; };
 		DCBFE0C91E0DE8DE00BB00C7 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */; };
+		DCBFE0CE1E0DEA6E00BB00C7 /* 02_image.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE0CD1E0DEA6E00BB00C7 /* 02_image.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +25,10 @@
 
 /* Begin PBXFileReference section */
 		DCBFE0B71E0DE89600BB00C7 /* sdl-tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sdl-tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 02_image.c; path = ../../../../../Desktop/02_image.c; sourceTree = "<group>"; };
-		DCBFE0C51E0DE8CF00BB00C7 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = hello_world.bmp; path = ../../../../../Desktop/hello_world.bmp; sourceTree = "<group>"; };
 		DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		DCBFE0CC1E0DE9DA00BB00C7 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = hello_world.bmp; path = 02_image/hello_world.bmp; sourceTree = "<group>"; };
+		DCBFE0CD1E0DEA6E00BB00C7 /* 02_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 02_image.c; path = 02_image/02_image.c; sourceTree = "<group>"; };
+		DCBFE0CF1E0DEAA200BB00C7 /* 01_hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 01_hello.c; path = 01_hello/01_hello.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		DCBFE0C11E0DE89E00BB00C7 /* 01_hello */ = {
 			isa = PBXGroup;
 			children = (
+				DCBFE0CF1E0DEAA200BB00C7 /* 01_hello.c */,
 			);
 			name = 01_hello;
 			sourceTree = "<group>";
@@ -78,8 +80,8 @@
 		DCBFE0C31E0DE8BC00BB00C7 /* 02_image */ = {
 			isa = PBXGroup;
 			children = (
-				DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */,
-				DCBFE0C51E0DE8CF00BB00C7 /* hello_world.bmp */,
+				DCBFE0CD1E0DEA6E00BB00C7 /* 02_image.c */,
+				DCBFE0CC1E0DE9DA00BB00C7 /* hello_world.bmp */,
 			);
 			name = 02_image;
 			sourceTree = "<group>";
@@ -149,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBFE0C61E0DE8CF00BB00C7 /* 02_image.c in Sources */,
+				DCBFE0CE1E0DEA6E00BB00C7 /* 02_image.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
