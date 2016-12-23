@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCBFE07D1E0DE6AA00BB00C7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE07C1E0DE6AA00BB00C7 /* main.c */; };
+		DCBFE0C61E0DE8CF00BB00C7 /* 02_image.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */; };
+		DCBFE0C91E0DE8DE00BB00C7 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DCBFE0771E0DE6AA00BB00C7 /* CopyFiles */ = {
+		DCBFE0B51E0DE89600BB00C7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,110 +24,139 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DCBFE0791E0DE6AA00BB00C7 /* 01_hello_sdl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01_hello_sdl; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBFE07C1E0DE6AA00BB00C7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DCBFE0B71E0DE89600BB00C7 /* sdl-tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sdl-tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 02_image.c; path = ../../../../../Desktop/02_image.c; sourceTree = "<group>"; };
+		DCBFE0C51E0DE8CF00BB00C7 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = hello_world.bmp; path = ../../../../../Desktop/hello_world.bmp; sourceTree = "<group>"; };
+		DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCBFE0761E0DE6AA00BB00C7 /* Frameworks */ = {
+		DCBFE0B41E0DE89600BB00C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBFE0C91E0DE8DE00BB00C7 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCBFE0701E0DE6AA00BB00C7 = {
+		DCBFE0AE1E0DE89600BB00C7 = {
 			isa = PBXGroup;
 			children = (
-				DCBFE07B1E0DE6AA00BB00C7 /* 01_hello_sdl */,
-				DCBFE07A1E0DE6AA00BB00C7 /* Products */,
+				DCBFE0B91E0DE89600BB00C7 /* sdl-tutorial */,
+				DCBFE0B81E0DE89600BB00C7 /* Products */,
+				DCBFE0C71E0DE8DE00BB00C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DCBFE07A1E0DE6AA00BB00C7 /* Products */ = {
+		DCBFE0B81E0DE89600BB00C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCBFE0791E0DE6AA00BB00C7 /* 01_hello_sdl */,
+				DCBFE0B71E0DE89600BB00C7 /* sdl-tutorial */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCBFE07B1E0DE6AA00BB00C7 /* 01_hello_sdl */ = {
+		DCBFE0B91E0DE89600BB00C7 /* sdl-tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				DCBFE07C1E0DE6AA00BB00C7 /* main.c */,
+				DCBFE0C31E0DE8BC00BB00C7 /* 02_image */,
+				DCBFE0C11E0DE89E00BB00C7 /* 01_hello */,
 			);
-			path = 01_hello_sdl;
+			path = "sdl-tutorial";
+			sourceTree = "<group>";
+		};
+		DCBFE0C11E0DE89E00BB00C7 /* 01_hello */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 01_hello;
+			sourceTree = "<group>";
+		};
+		DCBFE0C31E0DE8BC00BB00C7 /* 02_image */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFE0C41E0DE8CF00BB00C7 /* 02_image.c */,
+				DCBFE0C51E0DE8CF00BB00C7 /* hello_world.bmp */,
+			);
+			name = 02_image;
+			sourceTree = "<group>";
+		};
+		DCBFE0C71E0DE8DE00BB00C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCBFE0781E0DE6AA00BB00C7 /* 01_hello_sdl */ = {
+		DCBFE0B61E0DE89600BB00C7 /* sdl-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCBFE0801E0DE6AA00BB00C7 /* Build configuration list for PBXNativeTarget "01_hello_sdl" */;
+			buildConfigurationList = DCBFE0BE1E0DE89600BB00C7 /* Build configuration list for PBXNativeTarget "sdl-tutorial" */;
 			buildPhases = (
-				DCBFE0751E0DE6AA00BB00C7 /* Sources */,
-				DCBFE0761E0DE6AA00BB00C7 /* Frameworks */,
-				DCBFE0771E0DE6AA00BB00C7 /* CopyFiles */,
+				DCBFE0B31E0DE89600BB00C7 /* Sources */,
+				DCBFE0B41E0DE89600BB00C7 /* Frameworks */,
+				DCBFE0B51E0DE89600BB00C7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 01_hello_sdl;
-			productName = 01_hello_sdl;
-			productReference = DCBFE0791E0DE6AA00BB00C7 /* 01_hello_sdl */;
+			name = "sdl-tutorial";
+			productName = "sdl-tutorial";
+			productReference = DCBFE0B71E0DE89600BB00C7 /* sdl-tutorial */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCBFE0711E0DE6AA00BB00C7 /* Project object */ = {
+		DCBFE0AF1E0DE89600BB00C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Nicolas Montanaro";
 				TargetAttributes = {
-					DCBFE0781E0DE6AA00BB00C7 = {
+					DCBFE0B61E0DE89600BB00C7 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DCBFE0741E0DE6AA00BB00C7 /* Build configuration list for PBXProject "01_hello_sdl" */;
+			buildConfigurationList = DCBFE0B21E0DE89600BB00C7 /* Build configuration list for PBXProject "sdl-tutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DCBFE0701E0DE6AA00BB00C7;
-			productRefGroup = DCBFE07A1E0DE6AA00BB00C7 /* Products */;
+			mainGroup = DCBFE0AE1E0DE89600BB00C7;
+			productRefGroup = DCBFE0B81E0DE89600BB00C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCBFE0781E0DE6AA00BB00C7 /* 01_hello_sdl */,
+				DCBFE0B61E0DE89600BB00C7 /* sdl-tutorial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DCBFE0751E0DE6AA00BB00C7 /* Sources */ = {
+		DCBFE0B31E0DE89600BB00C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBFE07D1E0DE6AA00BB00C7 /* main.c in Sources */,
+				DCBFE0C61E0DE8CF00BB00C7 /* 02_image.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DCBFE07E1E0DE6AA00BB00C7 /* Debug */ = {
+		DCBFE0BC1E0DE89600BB00C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		DCBFE07F1E0DE6AA00BB00C7 /* Release */ = {
+		DCBFE0BD1E0DE89600BB00C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,16 +243,24 @@
 			};
 			name = Release;
 		};
-		DCBFE0811E0DE6AA00BB00C7 /* Debug */ = {
+		DCBFE0BF1E0DE89600BB00C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DCBFE0821E0DE6AA00BB00C7 /* Release */ = {
+		DCBFE0C01E0DE89600BB00C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -230,24 +268,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCBFE0741E0DE6AA00BB00C7 /* Build configuration list for PBXProject "01_hello_sdl" */ = {
+		DCBFE0B21E0DE89600BB00C7 /* Build configuration list for PBXProject "sdl-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCBFE07E1E0DE6AA00BB00C7 /* Debug */,
-				DCBFE07F1E0DE6AA00BB00C7 /* Release */,
+				DCBFE0BC1E0DE89600BB00C7 /* Debug */,
+				DCBFE0BD1E0DE89600BB00C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCBFE0801E0DE6AA00BB00C7 /* Build configuration list for PBXNativeTarget "01_hello_sdl" */ = {
+		DCBFE0BE1E0DE89600BB00C7 /* Build configuration list for PBXNativeTarget "sdl-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCBFE0811E0DE6AA00BB00C7 /* Debug */,
-				DCBFE0821E0DE6AA00BB00C7 /* Release */,
+				DCBFE0BF1E0DE89600BB00C7 /* Debug */,
+				DCBFE0C01E0DE89600BB00C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCBFE0711E0DE6AA00BB00C7 /* Project object */;
+	rootObject = DCBFE0AF1E0DE89600BB00C7 /* Project object */;
 }

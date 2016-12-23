@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCBFE08B1E0DE6C300BB00C7"
-               BuildableName = "02_image"
-               BlueprintName = "02_image"
-               ReferencedContainer = "container:02_image.xcodeproj">
+               BlueprintIdentifier = "DCBFE0B61E0DE89600BB00C7"
+               BuildableName = "sdl-tutorial"
+               BlueprintName = "sdl-tutorial"
+               ReferencedContainer = "container:sdl-tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCBFE08B1E0DE6C300BB00C7"
-            BuildableName = "02_image"
-            BlueprintName = "02_image"
-            ReferencedContainer = "container:02_image.xcodeproj">
+            BlueprintIdentifier = "DCBFE0B61E0DE89600BB00C7"
+            BuildableName = "sdl-tutorial"
+            BlueprintName = "sdl-tutorial"
+            ReferencedContainer = "container:sdl-tutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -47,7 +47,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/egg/code/github/sdl-tutorial/02_image"
+      customWorkingDirectory = "/Users/egg/code/github/sdl-tutorial/sdl-tutorial"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -56,10 +56,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCBFE08B1E0DE6C300BB00C7"
-            BuildableName = "02_image"
-            BlueprintName = "02_image"
-            ReferencedContainer = "container:02_image.xcodeproj">
+            BlueprintIdentifier = "DCBFE0B61E0DE89600BB00C7"
+            BuildableName = "sdl-tutorial"
+            BlueprintName = "sdl-tutorial"
+            ReferencedContainer = "container:sdl-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DCBFE08B1E0DE6C300BB00C7"
-            BuildableName = "02_image"
-            BlueprintName = "02_image"
-            ReferencedContainer = "container:02_image.xcodeproj">
+            BlueprintIdentifier = "DCBFE0B61E0DE89600BB00C7"
+            BuildableName = "sdl-tutorial"
+            BlueprintName = "sdl-tutorial"
+            ReferencedContainer = "container:sdl-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
