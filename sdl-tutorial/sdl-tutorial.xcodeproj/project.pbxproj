@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCBFE0C91E0DE8DE00BB00C7 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */; };
-		DCBFE0CE1E0DEA6E00BB00C7 /* 02_image.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE0CD1E0DEA6E00BB00C7 /* 02_image.c */; };
+		DCBFE0D31E0DEB5500BB00C7 /* 03_event.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE0D21E0DEB5500BB00C7 /* 03_event.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,8 @@
 		DCBFE0CC1E0DE9DA00BB00C7 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = hello_world.bmp; path = 02_image/hello_world.bmp; sourceTree = "<group>"; };
 		DCBFE0CD1E0DEA6E00BB00C7 /* 02_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 02_image.c; path = 02_image/02_image.c; sourceTree = "<group>"; };
 		DCBFE0CF1E0DEAA200BB00C7 /* 01_hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 01_hello.c; path = 01_hello/01_hello.c; sourceTree = "<group>"; };
+		DCBFE0D21E0DEB5500BB00C7 /* 03_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = 03_event.c; path = 03_event/03_event.c; sourceTree = "<group>"; };
+		DCBFE0D41E0DED9700BB00C7 /* x.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = x.bmp; path = 03_event/x.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		DCBFE0B91E0DE89600BB00C7 /* sdl-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DCBFE0D11E0DEB4400BB00C7 /* 03_event */,
 				DCBFE0C31E0DE8BC00BB00C7 /* 02_image */,
 				DCBFE0C11E0DE89E00BB00C7 /* 01_hello */,
 			);
@@ -92,6 +95,15 @@
 				DCBFE0C81E0DE8DE00BB00C7 /* SDL2.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBFE0D11E0DEB4400BB00C7 /* 03_event */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFE0D41E0DED9700BB00C7 /* x.bmp */,
+				DCBFE0D21E0DEB5500BB00C7 /* 03_event.c */,
+			);
+			name = 03_event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBFE0CE1E0DEA6E00BB00C7 /* 02_image.c in Sources */,
+				DCBFE0D31E0DEB5500BB00C7 /* 03_event.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
